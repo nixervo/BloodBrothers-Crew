@@ -932,7 +932,7 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; height: 3px;
-    background: linear-gradient(90deg, #c9a84c, #d4af37, #c9a84c);
+    background: linear-gradient(90deg, #8c1823, #8c1823, #8c1823);
     background-size: 200% 100%;
     animation: shimmer 3s ease-in-out infinite;
   }}
@@ -977,8 +977,8 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     border: 1px solid #1a1a2e;
     transition: 0.25s;
   }}
-  .archive a:hover {{ border-color: #c9a84c; color: #fff; background: rgba(233, 69, 96, 0.08); }}
-  .archive a.active {{ border-color: #c9a84c; color: #fff; background: #c9a84c; font-weight: 600; }}
+  .archive a:hover {{ border-color: #8c1823; color: #fff; background: rgba(233, 69, 96, 0.08); }}
+  .archive a.active {{ border-color: #8c1823; color: #fff; background: #8c1823; font-weight: 600; }}
   .table-wrap {{ overflow-x: auto; }}
   table {{
     width: 100%;
@@ -996,7 +996,7 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #e8c877;
+    color: #a0a1a3;
     font-weight: 600;
     border-left: 2px solid transparent;
     box-sizing: border-box;
@@ -1023,7 +1023,7 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
   }}
   .changes-title {{
     font-size: 13px;
-    color: #e8c877;
+    color: #a0a1a3;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -1071,7 +1071,7 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     border-top: 1px solid #12121e;
   }}
   .footer .ref {{ color: #555; font-size: 11px; margin-top: 2px; }}
-  .footer a {{ color: #e8c877; text-decoration: none; }}
+  .footer a {{ color: #a0a1a3; text-decoration: none; }}
   .timer-bar {{
     display: flex;
     align-items: center;
@@ -1087,14 +1087,14 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     position: relative;
   }}
   .timer-left {{ display: flex; align-items: center; gap: 10px; }}
-  .timer-season {{ color: #e8c877; font-weight: 700; letter-spacing: 0.5px; }}
+  .timer-season {{ color: #a0a1a3; font-weight: 700; letter-spacing: 0.5px; }}
   .timer-sep {{ color: #444; }}
   .timer-clock {{ display: flex; align-items: center; gap: 6px; }}
   .timer-digits {{ font-variant-numeric: tabular-nums; }}
-  .timer-digits span:first-child {{ color: #e8c877; font-weight: 600; min-width: 28px; display: inline-block; text-align: center; }}
+  .timer-digits span:first-child {{ color: #a0a1a3; font-weight: 600; min-width: 28px; display: inline-block; text-align: center; }}
   .timer-unit {{ color: #888; font-size: 12px; margin-left: 1px; }}
   .timer-right {{ position: absolute; right: 20px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 12px; color: #888; user-select: none; white-space: nowrap; }}
-  .timer-right:hover {{ color: #e8c877; }}
+  .timer-right:hover {{ color: #a0a1a3; }}
   .stats-bar {{
     display: flex;
     flex-direction: column;
@@ -1125,7 +1125,7 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     display: flex;
     flex-direction: column;
     background: #111111;
-    border-top: 2px solid #c9a84c44;
+    border-top: 2px solid #8c182344;
     border-bottom: 1px solid #1a1a2e;
     padding: 0;
   }}
@@ -1135,7 +1135,7 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #e8c877;
+    color: #a0a1a3;
     font-weight: 600;
     background: rgba(0,0,0,0.25);
   }}
@@ -1193,8 +1193,8 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     border-radius: 8px;
     font-size: 9px;
     font-weight: 600;
-    color: #e8c877;
-    background: #e8c87718;
+    color: #a0a1a3;
+    background: #a0a1a318;
   }}
   .castle-tag-danger {{ color: #f44336; background: #f4433618; }}
   .castle-tag-catch {{ color: #4caf50; background: #4caf5018; }}
@@ -1248,7 +1248,7 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     font-size: 13px;
     outline: none;
   }}
-  #search-input:focus {{ border-color: #c9a84c; }}
+  #search-input:focus {{ border-color: #8c1823; }}
   #search-input::placeholder {{ color: #555; }}
   .live-status {{ display: flex; align-items: center; gap: 6px; font-size: 12px; color: #555; white-space: nowrap; }}
   .status-dot {{ width: 8px; height: 8px; border-radius: 50%; }}
@@ -1276,7 +1276,7 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
   }}
   .goal-fill {{
     height: 100%;
-    background: linear-gradient(90deg, #c9a84c, #d4af37);
+    background: linear-gradient(90deg, #8c1823, #8c1823);
     border-radius: 8px;
     transition: width 0.5s ease;
   }}
@@ -1286,20 +1286,20 @@ window.__30mCache = """ + json.dumps(cache_30m["members"] if cache_30m and "memb
     font-size: 12px;
     color: #888;
   }}
-  .goal-info .goal-next {{ color: #e8c877; font-weight: 600; }}
+  .goal-info .goal-next {{ color: #a0a1a3; font-weight: 600; }}
   .goal-info .goal-num {{ color: #ccc; font-variant-numeric: tabular-nums; }}
   td:first-child {{ width: 28px; min-width: 28px; text-align: center; color: #666; font-size: 12px; }}
-  .meg.divider {{ border-left: 2px solid #c9a84c88; padding-left: 12px; }}
-  .divider {{ border-left: 2px solid #c9a84c88; }}
-  .div-col {{ border-left: 2px solid #c9a84c88; }}
+  .meg.divider {{ border-left: 2px solid #8c182388; padding-left: 12px; }}
+  .divider {{ border-left: 2px solid #8c182388; }}
+  .div-col {{ border-left: 2px solid #8c182388; }}
   {hide_css}
   .action-btn {{ cursor: pointer; font-size: 12px; color: #888; padding: 4px 10px; border-radius: 4px; border: 1px solid #1a1a2e; background: #111111; user-select: none; white-space: nowrap; }}
-  .action-btn:hover {{ border-color: #c9a84c; color: #c9a84c; }}
+  .action-btn:hover {{ border-color: #8c1823; color: #8c1823; }}
   .footer-updated {{ color: #555; font-size: 11px; margin: 2px 0; }}
   .footer-csv {{ margin-top: 8px; }}
-  .footer-csv a {{ color: #e8c877; text-decoration: none; font-size: 12px; cursor: pointer; }}
+  .footer-csv a {{ color: #a0a1a3; text-decoration: none; font-size: 12px; cursor: pointer; }}
   .footer-csv a:hover {{ text-decoration: underline; }}
-  .copied-toast {{ position: absolute; background: #e8c877; color: #fff; font-size: 11px; padding: 2px 8px; border-radius: 4px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity 0.3s; z-index: 10; }}
+  .copied-toast {{ position: absolute; background: #a0a1a3; color: #fff; font-size: 11px; padding: 2px 8px; border-radius: 4px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity 0.3s; z-index: 10; }}
 </style>
 </head>
 <body>
@@ -1594,22 +1594,22 @@ def save_daily_history():
   .header h1 { font-size: 26px; font-weight: 700; color: #fff; margin-bottom: 4px; }
   .header .sub { font-size: 14px; color: #888; }
   .nav { display: flex; justify-content: space-between; padding: 12px 20px; background: #0f0f0f; border-top: 1px solid #1a1a2e; border-bottom: 1px solid #1a1a2e; }
-  .nav a { color: #e8c877; text-decoration: none; font-size: 13px; }
+  .nav a { color: #a0a1a3; text-decoration: none; font-size: 13px; }
   .nav a:hover { text-decoration: underline; }
   .nav .inactive { color: #444; pointer-events: none; }
   .table-wrap { overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; background: #0d0d0d; }
-  th { background: #111111; padding: 12px 16px; text-align: center; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: #e8c877; font-weight: 600; }
+  th { background: #111111; padding: 12px 16px; text-align: center; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: #a0a1a3; font-weight: 600; }
   td { padding: 10px 16px; border-bottom: 1px solid #14141f; font-size: 13px; color: #ccc; text-align: center; }
   tr:nth-child(even) td { background: rgba(255,255,255,0.015); }
   .footer { text-align: center; padding: 16px 20px; background: #0a0a0a; color: #444; font-size: 12px; border-top: 1px solid #12121e; }
-  .footer a { color: #e8c877; text-decoration: none; }
+  .footer a { color: #a0a1a3; text-decoration: none; }
   .footer a:hover { text-decoration: underline; }
   .index-list { padding: 20px; background: #0d0d0d; }
   .index-list a { display: block; padding: 8px 14px; color: #ccc; text-decoration: none; font-size: 14px; border-bottom: 1px solid #14141f; }
   .index-list a:hover { background: rgba(233,69,96,0.04); color: #fff; }
   .index-list a:last-child { border-bottom: none; }
-  .section-header { padding: 10px 20px; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: #e8c877; font-weight: 600; background: #0f0f0f; border-top: 1px solid #1a1a2e; }
+  .section-header { padding: 10px 20px; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: #a0a1a3; font-weight: 600; background: #0f0f0f; border-top: 1px solid #1a1a2e; }
   .star-joined { color: #42a5f5; }
   .star-left { color: #f44336; }
 </style>"""
